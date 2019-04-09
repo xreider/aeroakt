@@ -10,7 +10,7 @@ header {
     background: linear-gradient(to right, #2af598 0%, #009efd 100%);
     background: -webkit-linear-gradient(to top, white, rgba(255, 255, 255, 0.2) 48%, transparent 100%), -webkit-linear-gradient(to left, #514A9D, #24C6DC);
     background: linear-gradient(to top, white, rgba(255, 255, 255, 0.2) 48%, transparent 100%), linear-gradient(to left, #514A9D, #24C6DC);
-    height: 110vh;
+    height: 100vh;
     display: grid;
     grid-template-columns: 1fr 1fr;
 }
