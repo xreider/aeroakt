@@ -19,12 +19,12 @@ header {
 #banner_message  {
     font-family: 'Futura Bold', 'Roboto', Helvetica, Arial, sans-serif; 
     font-weight: bold;
-    font-size: 50vw; 
+    font-size: 62vw; 
     color: white;
     position: relative;
 }
 
-#plane {bottom: 0;left:0;position: absolute;
+#plane {bottom: -25vh;left:0;position: absolute;
     -webkit-transform: rotateZ(-55deg);
     -ms-transform: rotateZ(-55deg);
     transform: rotateZ(-55deg);
