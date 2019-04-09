@@ -24,12 +24,12 @@ header {
     position: relative;
 }
 
-#plane {
+svg {
     bottom: -10vh;
     left: 0;
     position: absolute;
-    -webkit-transform: rotateZ(-55deg);
-    -ms-transform: rotateZ(-55deg);
+    -webkit-transform: rotateZ(-9deg);
+    -ms-transform: rotateZ(-9deg);
     transform: rotateZ(-9deg);
     pointer-events: none;
     -webkit-user-select: none;
