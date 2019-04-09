@@ -27,7 +27,6 @@ header {
 svg {
     bottom: -10vh;
     left: 5vw;
-    left: 0;
     position: absolute;
     -webkit-transform: rotateZ(-9deg);
     -ms-transform: rotateZ(-9deg);
