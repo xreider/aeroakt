@@ -24,17 +24,21 @@ header {
     position: relative;
 }
 
-#plane {bottom: -25vh;left:0;position: absolute;
+#plane {
+    bottom: -10vh;
+    left: 0;
+    position: absolute;
     -webkit-transform: rotateZ(-55deg);
     -ms-transform: rotateZ(-55deg);
-    transform: rotateZ(-55deg);
+    transform: rotateZ(-9deg);
     pointer-events: none;
     -webkit-user-select: none;
     -moz-user-select: none;
     -ms-user-select: none;
     user-select: none;
-    text-shadow: -7px 9px 30px rgba(0,0,0,0.5), 2px 2px 61px rgba(255,255,255,0.8);
-    text-shadow: 2px 2px 61px rgba(255,255,255,0.8);}
+    width: 60vw;
+    -webkit-filter: drop-shadow(2px 2px 61px white);
+    filter: drop-shadow(2px 2px 61px white);}
 
 .text {
     text-align: right;
