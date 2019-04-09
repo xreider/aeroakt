@@ -20,12 +20,7 @@ header {
     font-family: 'Futura Bold', 'Roboto', Helvetica, Arial, sans-serif;
     height: 83vh;
     font-weight: bold;
-    font-size: 50vw;
-    margin-left: -13vw;
-    margin-top: -10vw;
-    /* position: absolute; */
-    /* top: -5vh; */
-    /* left: 0; */
+    font-size: 50vw; 
     color: white;
     -webkit-transform: rotateZ(-55deg);
     -ms-transform: rotateZ(-55deg);
@@ -37,7 +32,10 @@ header {
     user-select: none;
     text-shadow: -7px 9px 30px rgba(0,0,0,0.5), 2px 2px 61px rgba(255,255,255,0.8);
     text-shadow: 2px 2px 61px rgba(255,255,255,0.8);
+    position: relative;
 }
+
+#plane {bottom: 0;left:0;position: absolute;}
 
 .text {
     text-align: right;
