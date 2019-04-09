@@ -36,8 +36,8 @@ svg {
     -moz-user-select: none;
     -ms-user-select: none;
     user-select: none;
-    width: 60vw;
-
+    max-width: 60vw;
+max-height: 80vh;
   margin: 2vw;
   fill: white;
   filter: drop-shadow(2px 2px 30px rgba(255, 255, 255, 0.8));
