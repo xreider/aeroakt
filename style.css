@@ -37,8 +37,11 @@ svg {
     -ms-user-select: none;
     user-select: none;
     width: 60vw;
-    -webkit-filter: drop-shadow(2px 2px 61px white);
-    filter: drop-shadow(2px 2px 61px white);}
+
+  margin: 2vw;
+  fill: white;
+  filter: drop-shadow(2px 2px 30px rgba(255, 255, 255, 0.8));
+  transform: rotate(-10deg);}
 
 .text {
     text-align: right;
