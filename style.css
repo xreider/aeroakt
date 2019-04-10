@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Rubik+Mono+One');
-@import url('https://fonts.googleapis.com/css?family=Caveat');
+@import url('https://fonts.googleapis.com/css?family=Caveat|Rubik+Mono+One&subset=cyrillic');
 
 body {margin: 0;padding: 0; 
     overflow-x: hidden;
