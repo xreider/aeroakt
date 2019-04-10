@@ -24,7 +24,7 @@ header {
     position: relative;
 }
 
-svg {
+#banner_message svg {
     bottom: -10vh;
     left: 5vw;
     position: absolute;
@@ -36,7 +36,7 @@ svg {
     -moz-user-select: none;
     -ms-user-select: none;
     user-select: none;
-    max-width: 60vw;
+     width: 60vw;
 max-height: 95vh;
   margin: 2vw;
   fill: white;
