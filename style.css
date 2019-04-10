@@ -57,3 +57,19 @@ max-height: 95vh;
   .text .undertext {
     font-family: 'Caveat', cursive;
     font-size: 3vw;}
+
+@media screen and (min-width:800px) {
+   header { 
+    grid-template-rows: 0.6fr 1.4fr;
+    }
+    .text {
+        text-align: center;
+    padding-top: 10vh;
+    padding-right: 0;}
+    #banner_message svg { 
+max-height: 100%;
+max-width: 95vw;
+    margin: auto;
+    left: 0;
+    right: 0;}
+}
