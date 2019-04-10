@@ -92,3 +92,12 @@ max-width: 90vw;
   .text .undertext { 
     font-size: 7vw;}
 }
+
+@media screen and (max-width: 800px) {
+    
+    .text { 
+    font-size: 7vw;
+    }
+  .text .undertext { 
+    font-size: 5vw;}
+    }
