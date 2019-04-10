@@ -61,7 +61,7 @@ max-height: 95vh;
 @media screen and (max-width:800px) {
    header { 
     grid-template-rows: 30vh 70vh;
-    grid-template-none: 1fr 1fr;
+    grid-template-columns: none;
     grid-auto-flow: dense;
     }
     .text {
