@@ -72,8 +72,7 @@ max-height: 95vh;
     padding-top: 0;
     padding-bottom: 5vh;
     padding-right: 0;
-    grid-row: 1;
-    font-size: 10vw;
+    grid-row: 1
     height: 100%;
     justify-content: flex-end;
     display: flex;
@@ -88,16 +87,20 @@ max-width: 90vw;
     width: 90vw; }
 #banner_message { 
     grid-row: 2;
-}
-  .text .undertext { 
-    font-size: 7vw;}
-}
-
-@media screen and (max-width: 800px) {
+} 
     
     .text { 
     font-size: 7vw;
     }
   .text .undertext { 
     font-size: 5vw;}
+}
+
+@media screen and (max-width: 800px) {
+    
+    .text { 
+    font-size: 10vw;
+    }
+  .text .undertext { 
+    font-size: 7vw;}
     }
