@@ -60,16 +60,23 @@ max-height: 95vh;
 
 @media screen and (max-width:800px) {
    header { 
-    grid-template-rows: 0.6fr 1.4fr;
+    grid-template-rows: 30vh 70vh;
+    grid-auto-flow: dense;
     }
     .text {
         text-align: center;
     padding-top: 10vh;
-    padding-right: 0;}
+    padding-right: 0;
+    grid-row: 1;}
     #banner_message svg { 
 max-height: 100%;
-max-width: 95vw;
+max-width: 90vw;
     margin: auto;
     left: 0;
-    right: 0;}
+    right: 0;
+    bottom: 0;
+    width: 90vw; }
+}
+#banner_message { 
+    grid-row: 2;
 }
