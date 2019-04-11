@@ -104,8 +104,15 @@ max-width: 90vw;
 @media screen and (max-width: 800px) {
     header {
     height: 90vh;}
+    
+    #banner_message {
+    height: 55vh;
+}
+    
+    
     .text { 
     font-size: 10vw;
+    height: 35vh;
     }
   .text .undertext { 
     font-size: 7vw;}
